@@ -70,14 +70,14 @@
                   <v-row>
                     <v-col cols="12" class="childcol">
                       <div class="child2 mButton padding bgColor1">
-                        <h1 class="red--text text--darken-4">60+</h1>
-                        <p class="grey--text">Clients</p>
+                        <h1 class="red--text text--darken-4">CS & ECON</h1>
+                        <p class="grey--text">Majors</p>
                       </div>
                     </v-col>
                     <v-col cols="12" class="childcol">
                       <div class="child2 padding bgColor1">
-                        <h1 class="red--text text--darken-4">122+</h1>
-                        <p class="grey--text">Completed Projects</p>
+                        <h1 id="scholar" class="red--text text--darken-4">Archibald-Finifter</h1>
+                        <p class="grey--text">Scholarship</p>
                       </div>
                     </v-col>
                   </v-row>
@@ -86,14 +86,14 @@
                   <v-row>
                     <v-col cols="12" class="childcol">
                       <div class="child2 mButton padding bgColor1">
-                        <h1 class="red--text text--darken-4">08</h1>
-                        <p class="grey--text">Years Experience</p>
+                        <h1 class="red--text text--darken-4">3.84</h1>
+                        <p class="grey--text">GPA</p>
                       </div>
                     </v-col>
                     <v-col cols="12" class="childcol">
                       <div class="child2 padding bgColor1">
-                        <h1 class="red--text text--darken-4">10</h1>
-                        <p class="grey--text">Achievements</p>
+                        <h1 class="red--text text--darken-4">06.2024</h1>
+                        <p class="grey--text">Graduation</p>
                       </div>
                     </v-col>
                   </v-row>
@@ -107,7 +107,7 @@
           <p class="grey--text">Lorem ipsum dolor Lorem ipsum dolor</p>
         </v-col>
         <v-col md="3" class="text-end">
-          <v-btn tile color="#A7121D" dark> View All </v-btn>
+          <v-btn tile color="#A7121D" dark> View All (Working)</v-btn>
         </v-col>
         <v-col md="3" offset-md="3">
           <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
@@ -164,18 +164,19 @@
           <div class="second">
             <div class="secondchild1" id="Contact">
               <v-row>
-                <v-col cols="7">
+                <v-col cols="8">
                   <h1 class="white--text">
-                    Let's work together on<br />your next project
+                    Contact me if<br />you have any questions!
                   </h1>
                   <p class="grey--text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eius nesciunt ducimus natus <br />
+                    personal email: minkimdom1103@gmail.com <br />
+                    school email: mkim22@gmail.com <br />
+                    mobile: 703-717-8646
                   </p>
                 </v-col>
-                <v-col cols="5">
+                <v-col cols="4">
                   <v-btn tile color="#A7121D" dark class="mt-16">
-                    Contact
+                    Contact (Working)
                   </v-btn>
                 </v-col>
               </v-row>
@@ -190,7 +191,7 @@
                 right: 0;
                 text-align: center;
               ">
-              <v-btn text>Home</v-btn>
+              <v-btn text @click="scroll('Home')">Home</v-btn>
               <v-btn text>Summary</v-btn>
               <v-btn text>About</v-btn>
               <v-btn text>Contact</v-btn>
@@ -254,6 +255,7 @@ export default {
 
 .secondchild1 {
   display: inline-block;
+  width: 650px;
   background-color: #1e1e1e;
   padding: 2rem 1rem;
   vertical-align: middle;
@@ -314,5 +316,9 @@ export default {
 h1.number {
   font-size: 50px;
   font-weight: bold;
+}
+
+.red--text {
+  font-size: 28px;
 }
 </style>
