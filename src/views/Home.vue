@@ -103,8 +103,8 @@
           </div>
         </v-col>
         <v-col md="3" offset-md="3" id="About">
-          <h4 class="white--text">FEATURED PROJECTS</h4>
-          <p class="grey--text">Lorem ipsum dolor Lorem ipsum dolor</p>
+          <h4 class="white--text">About</h4>
+          <p class="grey--text">Know more about me!</p>
         </v-col>
         <v-col md="3" class="text-end">
           <v-btn tile color="#A7121D" dark> View All (Working)</v-btn>
@@ -120,18 +120,18 @@
           </v-card>
         </v-col>
         <v-col md="3" offset-md="3">
-          <v-btn color="white" dark text class="ml-n4"> The Vintage </v-btn><br />
+          <v-btn color="white" dark text class="ml-n4"> Background </v-btn><br />
 
           <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
+            know more (working)
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
         <v-col md="3">
-          <v-btn color="white" dark text class="ml-n4"> Foodasa </v-btn><br />
+          <v-btn color="white" dark text class="ml-n4"> Interests </v-btn><br />
 
           <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
+            know more (working)
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
@@ -146,17 +146,17 @@
           </v-card>
         </v-col>
         <v-col md="3" offset-md="3">
-          <v-btn color="white" dark text class="ml-n4"> AAE IdeaPro </v-btn><br />
+          <v-btn color="white" dark text class="ml-n4"> Programming Language </v-btn><br />
 
           <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
+            know more (working)
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
         <v-col md="3">
-          <v-btn color="white" dark text class="ml-n4"> Mozaik </v-btn><br />
+          <v-btn color="white" dark text class="ml-n4"> Coming Up.... </v-btn><br />
           <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
+            know more (working)
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
@@ -169,8 +169,8 @@
                     Contact me if<br />you have any questions!
                   </h1>
                   <p class="grey--text">
-                    personal email: minkimdom1103@gmail.com <br />
-                    school email: mkim22@gmail.com <br />
+                    personal email: <a href="mailto: minkimdom1103@gmail.com">minkimdom1103@gmail.com</a> <br />
+                    school email: <a href="mailto: mkim22@wm.edu">mkim22@wm.edu</a> <br />
                     mobile: 703-717-8646
                   </p>
                 </v-col>
