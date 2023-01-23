@@ -4,10 +4,10 @@
     <v-container fluid>
       <v-row>
         <v-col cols="6">
-          <v-img src="profile.png" contain max-height="500"></v-img>
+          <v-img src="profile.png" position="bottom" contain max-height="400"></v-img>
         </v-col>
         <v-col cols="6">
-          <h5 class="red--text text--darken-4 top">Software Engineer</h5>
+          <h5 id="occupation" class="text--darken-4 top">Software Engineer</h5>
           <h1 class="white--text">Hi, I'm Min</h1>
           <p class="grey--text">
             A passionate undergraduate student majoring in
@@ -19,45 +19,43 @@
             ambitious with personal/team growth and success through higher education, research, and internship
             opportunities.
           </p>
-          <v-btn tile color="#A7121D" dark> about me (Working) </v-btn>
+          <v-btn tile color="#958b00" dark> about me (Working) </v-btn>
         </v-col>
         <v-col cols="12" class="padd">
           <div class="first" id="Summary">
             <v-row>
               <v-col cols="12">
                 <div class="child bgColor1">
-                  <v-icon color="#A7121D" x-large class="ml-3">mdi-palette-swatch</v-icon>
+                  <v-icon color="#958b00" x-large class="ml-3">mdi-file-code</v-icon>
                   <h3 class="white--text ml-3 mt-4">Software Engineering</h3>
                   <p class="grey--text ml-3 mt-6">
-                    Lorem, ipsum dolor sit amet <br />consectetur adipisicing
-                    el
+                    Check my work at <br /><a href="https://github.com/minkim2002">my github!</a>
+
                   </p>
-                  <v-btn color="#A7121D" dark text>
-                    know more
+                  <v-btn color="#958b00" dark text>
+                    know more (working)
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
                 <div class="child bgColor2">
-                  <v-icon color="" x-large class="ml-3" dark>mdi-shopping</v-icon>
+                  <v-icon color="" x-large class="ml-3" dark>mdi-security</v-icon>
                   <h3 class="white--text ml-3 mt-4">Cybersecurity</h3>
                   <p class="grey--text ml-3 mt-6">
-                    Lorem, ipsum dolor sit amet <br />consectetur adipisicing
-                    elit.
+                    Check my resume at <br /><a href="https://www.linkedin.com/in/min-kim1103/">my linkedin!</a>
                   </p>
                   <v-btn color="" dark text>
-                    know more
+                    know more (working)
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
                 <div class="child bgColor1">
-                  <v-icon color="#A7121D" x-large class="ml-3">mdi-book-open-page-variant</v-icon>
+                  <v-icon color="#958b00" x-large class="ml-3">mdi-lightbulb</v-icon>
                   <h3 class="white--text ml-3 mt-4">Product Management</h3>
                   <p class="grey--text ml-3 mt-6">
-                    Lorem, ipsum dolor sit amet <br />consectetur adipisicing
-                    elit.
+                    Check my resume at <br /><a href="https://www.linkedin.com/in/min-kim1103/">my linkedin!</a>
                   </p>
-                  <v-btn color="#A7121D" dark text>
-                    know more
+                  <v-btn color="#958b00" dark text>
+                    know more (working)
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
@@ -70,13 +68,14 @@
                   <v-row>
                     <v-col cols="12" class="childcol">
                       <div class="child2 mButton padding bgColor1">
-                        <h1 class="red--text text--darken-4">CS & ECON</h1>
+                        <h1 class="text--darken-4 category">CS & ECON</h1>
                         <p class="grey--text">Majors</p>
                       </div>
                     </v-col>
                     <v-col cols="12" class="childcol">
                       <div class="child2 padding bgColor1">
-                        <h1 id="scholar" class="red--text text--darken-4">Archibald-Finifter</h1>
+                        <h1 id="scholar" class="text--darken-4 category">Archibald-Finifter
+                        </h1>
                         <p class="grey--text">Scholarship</p>
                       </div>
                     </v-col>
@@ -86,13 +85,13 @@
                   <v-row>
                     <v-col cols="12" class="childcol">
                       <div class="child2 mButton padding bgColor1">
-                        <h1 class="red--text text--darken-4">3.84</h1>
+                        <h1 class="text--darken-4 category">3.84</h1>
                         <p class="grey--text">GPA</p>
                       </div>
                     </v-col>
                     <v-col cols="12" class="childcol">
                       <div class="child2 padding bgColor1">
-                        <h1 class="red--text text--darken-4">06.2024</h1>
+                        <h1 class="text--darken-4 category">06.2024</h1>
                         <p class="grey--text">Graduation</p>
                       </div>
                     </v-col>
@@ -107,22 +106,22 @@
           <p class="grey--text">Know more about me!</p>
         </v-col>
         <v-col md="3" class="text-end">
-          <v-btn tile color="#A7121D" dark> View All (Working)</v-btn>
+          <v-btn tile color="#958b00" dark> View All (Working)</v-btn>
         </v-col>
         <v-col md="3" offset-md="3">
-          <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
-            <v-img src="3.png" contain max-height=""></v-img>
+          <v-card class="pa-2 py-6" outlined tile height="250px" color="#1E1E1E">
+            <v-img src="5.jpg" contain max-height="500"></v-img>
           </v-card>
         </v-col>
         <v-col md="3">
-          <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
-            <v-img src="2.png" contain max-height=""></v-img>
+          <v-card class="pa-2 py-3" outlined tile height="250px" color="#1E1E1E">
+            <v-img src="2.jpg" contain max-height="500"></v-img>
           </v-card>
         </v-col>
         <v-col md="3" offset-md="3">
           <v-btn color="white" dark text class="ml-n4"> Background </v-btn><br />
 
-          <v-btn color="#A7121D" dark text class="ml-n4">
+          <v-btn color="#958b00" dark text class="ml-n4">
             know more (working)
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
@@ -130,32 +129,32 @@
         <v-col md="3">
           <v-btn color="white" dark text class="ml-n4"> Interests </v-btn><br />
 
-          <v-btn color="#A7121D" dark text class="ml-n4">
+          <v-btn color="#958b00" dark text class="ml-n4">
             know more (working)
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
         <v-col md="3" offset-md="3">
-          <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
-            <v-img src="4.png" contain max-height=""></v-img>
+          <v-card class="pa-2 py-4" outlined tile height="250px" color="#1E1E1E">
+            <v-img src="7.png" contain max-height="500"></v-img>
           </v-card>
         </v-col>
         <v-col md="3">
-          <v-card class="pa-2 py-12" outlined tile height="250px" color="#1E1E1E">
-            <v-img src="5.png" contain max-height=""></v-img>
+          <v-card class="pa-2 py-3" outlined tile height="250px" color="#1E1E1E">
+            <v-img src="8.png" contain max-height="500"></v-img>
           </v-card>
         </v-col>
         <v-col md="3" offset-md="3">
           <v-btn color="white" dark text class="ml-n4"> Programming Language </v-btn><br />
 
-          <v-btn color="#A7121D" dark text class="ml-n4">
+          <v-btn color="#958b00" dark text class="ml-n4">
             know more (working)
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
         <v-col md="3">
           <v-btn color="white" dark text class="ml-n4"> Coming Up.... </v-btn><br />
-          <v-btn color="#A7121D" dark text class="ml-n4">
+          <v-btn color="#958b00" dark text class="ml-n4">
             know more (working)
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
@@ -175,7 +174,7 @@
                   </p>
                 </v-col>
                 <v-col cols="4">
-                  <v-btn tile color="#A7121D" dark class="mt-16">
+                  <v-btn tile color="#958b00" dark class="mt-16">
                     Contact (Working)
                   </v-btn>
                 </v-col>
@@ -221,7 +220,7 @@ export default {
 </script>
 <style scoped>
 .top {
-  margin-top: 180px;
+  margin-top: 100px;
 }
 
 .topInverse {
@@ -276,7 +275,7 @@ export default {
 }
 
 .bgColor2 {
-  background-color: #ce1d2a;
+  background-color: #958b00;
 }
 
 .child1 {
@@ -318,7 +317,12 @@ h1.number {
   font-weight: bold;
 }
 
-.red--text {
+.category {
   font-size: 28px;
+  color: #958b00;
+}
+
+#occupation {
+  color: #958b00
 }
 </style>

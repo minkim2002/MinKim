@@ -1,7 +1,7 @@
 <template>
   <v-app-bar app color="#111111" dark flat class="px-8">
     <v-btn icon>
-      <v-icon color="#A7121D">mdi-heart</v-icon>
+      <v-icon color="#958b00">mdi-heart</v-icon>
     </v-btn>
 
     <v-spacer></v-spacer>

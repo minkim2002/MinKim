@@ -5,7 +5,7 @@
         <v-col cols="12" sm="4">
           <v-card-text class="white--text pt-2">
             <v-btn icon>
-              <v-icon color="#A7121D">mdi-heart</v-icon>
+              <v-icon color="#958b00">mdi-heart</v-icon>
             </v-btn>
           </v-card-text>
         </v-col>
@@ -22,7 +22,7 @@
         <v-col cols="12" sm="4">
           <v-card-text class="pt-2">
             <v-btn class="mx-1 white--text" icon>
-              <v-icon color="#A7121D">mdi-wallet-travel</v-icon>
+              <v-icon color="#958b00">mdi-wallet-travel</v-icon>
             </v-btn>
             Min Kim
           </v-card-text>
