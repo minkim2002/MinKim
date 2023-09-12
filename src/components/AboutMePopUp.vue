@@ -46,6 +46,6 @@ export default {
 </script>
 <style>
 .about_me {
-    background-color: #cad1e8;
+    background-color: #f0efc2;
 }
 </style>
