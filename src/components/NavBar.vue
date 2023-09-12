@@ -6,7 +6,7 @@
 
     <v-spacer></v-spacer>
     <v-btn text @click="scroll('Home')">Home</v-btn>
-    <v-btn text @click="scroll('Summary')">Summary</v-btn>
+    <v-btn text @click="scroll('Introduction')">Introduction</v-btn>
     <v-btn text @click="scroll('About')">About</v-btn>
     <v-btn text @click="scroll('Contact')">Contact</v-btn>
   </v-app-bar>
@@ -23,6 +23,4 @@ export default {
 };
 </script>
 
-<style>
-
-</style>
+<style></style>

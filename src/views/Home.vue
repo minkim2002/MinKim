@@ -3,37 +3,46 @@
     <nav-bar />
     <v-container fluid>
       <v-row>
-        <v-col cols="6">
-          <v-img src="profile.png" position="bottom" contain max-height="400"></v-img>
+        <v-col cols="2">
+        </v-col>
+        <v-col cols="3">
+          <v-carousel cycle height="auto">
+            <v-carousel-item src="21.jpg" cover></v-carousel-item>
+            <v-carousel-item src="19.jpg" cover></v-carousel-item>
+            <v-carousel-item src="20.jpg" cover></v-carousel-item>
+            <v-carousel-item src="17.jpg" cover></v-carousel-item>
+            <v-carousel-item src="22.jpg" cover></v-carousel-item>
+          </v-carousel>
+        </v-col>
+        <v-col cols="1">
         </v-col>
         <v-col cols="6">
           <h5 id="occupation" class="text--darken-4 top">Software Engineer</h5>
           <h1 class="white--text">Hi, I'm Min</h1>
           <p class="grey--text">
-            A passionate undergraduate student majoring in
+            An undergraduate student majoring in
             <br />
             Computer Science and Economics at William & Mary.
             <br />
             Based on thoroughly equipped front and back-end programming skills,
             <br />
-            ambitious with personal/team growth and success through higher education, research, and internship
+            ambitious with personal/team growth and success through higher education, <br /> research, and internship
             opportunities.
           </p>
-          <v-btn tile color="#958b00" dark> about me (Working) </v-btn>
+          <AboutMePopUp />
         </v-col>
         <v-col cols="12" class="padd">
-          <div class="first" id="Summary">
+          <div class="first" id="Introduction">
             <v-row>
               <v-col cols="12">
                 <div class="child bgColor1">
                   <v-icon color="#958b00" x-large class="ml-3">mdi-file-code</v-icon>
                   <h3 class="white--text ml-3 mt-4">Software Engineering</h3>
                   <p class="grey--text ml-3 mt-6">
-                    Check my work at <br /><a href="https://github.com/minkim2002">my github!</a>
-
+                    Check My Coding Work!
                   </p>
-                  <v-btn color="#958b00" dark text>
-                    know more (working)
+                  <v-btn color="#958b00" dark text href="https://github.com/minkim2002">
+                    GitHub
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
@@ -41,21 +50,23 @@
                   <v-icon color="" x-large class="ml-3" dark>mdi-security</v-icon>
                   <h3 class="white--text ml-3 mt-4">Cybersecurity</h3>
                   <p class="grey--text ml-3 mt-6">
-                    Check my resume at <br /><a href="https://www.linkedin.com/in/min-kim1103/">my linkedin!</a>
+                    Check My Research Paper!
                   </p>
-                  <v-btn color="" dark text>
-                    know more (working)
+                  <v-btn color="" dark text
+                    href="https://digitalcommons.odu.edu/covacci-undergraduateresearch/2023spring/projects/2/">
+                    Research
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
+
                 <div class="child bgColor1">
                   <v-icon color="#958b00" x-large class="ml-3">mdi-lightbulb</v-icon>
                   <h3 class="white--text ml-3 mt-4">Product Management</h3>
                   <p class="grey--text ml-3 mt-6">
-                    Check my resume at <br /><a href="https://www.linkedin.com/in/min-kim1103/">my linkedin!</a>
+                    Check My Resume!
                   </p>
-                  <v-btn color="#958b00" dark text>
-                    know more (working)
+                  <v-btn color="#958b00" dark text href="https://www.linkedin.com/in/min-kim1103/">
+                    LinkedIn
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
@@ -85,7 +96,7 @@
                   <v-row>
                     <v-col cols="12" class="childcol">
                       <div class="child2 mButton padding bgColor1">
-                        <h1 class="text--darken-4 category">3.84</h1>
+                        <h1 class="text--darken-4 category">3.85</h1>
                         <p class="grey--text">GPA</p>
                       </div>
                     </v-col>
@@ -101,13 +112,13 @@
             </v-row>
           </div>
         </v-col>
-        <v-col md="3" offset-md="3" id="About">
+        <v-col md="6" offset-md="3" id="About">
           <h4 class="white--text">About</h4>
           <p class="grey--text">Know more about me!</p>
         </v-col>
-        <v-col md="3" class="text-end">
+        <!-- <v-col md="3" class="text-end">
           <v-btn tile color="#958b00" dark> View All (Working)</v-btn>
-        </v-col>
+        </v-col> -->
         <v-col md="3" offset-md="3">
           <v-card class="pa-2 py-6" outlined tile height="250px" color="#1E1E1E">
             <v-img src="5.jpg" contain max-height="500"></v-img>
@@ -119,20 +130,14 @@
           </v-card>
         </v-col>
         <v-col md="3" offset-md="3">
-          <v-btn color="white" dark text class="ml-n4"> Background </v-btn><br />
+          <v-btn color="white" dark text class="ml-n4"> Gallery </v-btn><br />
 
-          <v-btn color="#958b00" dark text class="ml-n4">
-            know more (working)
-            <v-icon right>mdi-arrow-right</v-icon>
-          </v-btn>
+          <GalleryPopUp />
         </v-col>
         <v-col md="3">
           <v-btn color="white" dark text class="ml-n4"> Interests </v-btn><br />
 
-          <v-btn color="#958b00" dark text class="ml-n4">
-            know more (working)
-            <v-icon right>mdi-arrow-right</v-icon>
-          </v-btn>
+          <InterestsPopUp />
         </v-col>
         <v-col md="3" offset-md="3">
           <v-card class="pa-2 py-4" outlined tile height="250px" color="#1E1E1E">
@@ -145,37 +150,26 @@
           </v-card>
         </v-col>
         <v-col md="3" offset-md="3">
-          <v-btn color="white" dark text class="ml-n4"> Programming Language </v-btn><br />
+          <v-btn color="white" dark text class="ml-n4"> Programming Languages </v-btn><br />
 
-          <v-btn color="#958b00" dark text class="ml-n4">
-            know more (working)
-            <v-icon right>mdi-arrow-right</v-icon>
-          </v-btn>
+          <ProLangPopUp />
         </v-col>
         <v-col md="3">
-          <v-btn color="white" dark text class="ml-n4"> Coming Up.... </v-btn><br />
-          <v-btn color="#958b00" dark text class="ml-n4">
-            know more (working)
-            <v-icon right>mdi-arrow-right</v-icon>
-          </v-btn>
+          <v-btn color="white" dark text class="ml-n4"> Other Technologies </v-btn><br />
+          <OtherTechPopUp />
         </v-col>
         <v-col cols="12" class="padd topInverse">
           <div class="second">
             <div class="secondchild1" id="Contact">
               <v-row>
-                <v-col cols="8">
-                  <h1 class="white--text">
-                    Contact me if<br />you have any questions!
-                  </h1>
-                  <p class="grey--text">
-                    personal email: <a href="mailto: minkimdom1103@gmail.com">minkimdom1103@gmail.com</a> <br />
-                    school email: <a href="mailto: mkim22@wm.edu">mkim22@wm.edu</a> <br />
-                    mobile: 703-717-8646
-                  </p>
+                <v-col cols="12">
+                  <h2 class="white--text">
+                    Contact me if you have any questions!
+                  </h2>
                 </v-col>
-                <v-col cols="4">
-                  <v-btn tile color="#958b00" dark class="mt-16">
-                    Contact (Working)
+                <v-col cols="12">
+                  <v-btn tile color="#958b00" dark class="mt-16" href="mailto: minkimdom1103@gmail.com">
+                    Contact
                   </v-btn>
                 </v-col>
               </v-row>
@@ -191,9 +185,9 @@
                 text-align: center;
               ">
               <v-btn text @click="scroll('Home')">Home</v-btn>
-              <v-btn text>Summary</v-btn>
-              <v-btn text>About</v-btn>
-              <v-btn text>Contact</v-btn>
+              <v-btn text @click="scroll('Introduction')">Introduction</v-btn>
+              <v-btn text @click="scroll('About')">About</v-btn>
+              <v-btn text @click="scroll('Contact')">Contact</v-btn>
             </div>
           </v-toolbar>
         </v-col>
@@ -206,6 +200,11 @@
 <script>
 import NavBar from "../components/NavBar.vue";
 import Footer from "../components/Footer.vue";
+import AboutMePopUp from "../components/AboutMePopUp.vue"
+import OtherTechPopUp from "../components/OtherTechPopUp.vue";
+import ProLangPopUp from "../components/ProLangPopUp.vue";
+import GalleryPopUp from "../components/GalleryPopUp.vue"
+import InterestsPopUp from "../components/InterestsPopUp.vue"
 
 export default {
   name: "Home",
@@ -215,6 +214,18 @@ export default {
   components: {
     NavBar,
     Footer,
+    AboutMePopUp,
+    OtherTechPopUp,
+    ProLangPopUp,
+    GalleryPopUp,
+    InterestsPopUp
+  },
+
+  methods: {
+    scroll(refName) {
+      const element = document.getElementById(refName);
+      element.scrollIntoView({ behavior: "smooth" });
+    },
   },
 };
 </script>
