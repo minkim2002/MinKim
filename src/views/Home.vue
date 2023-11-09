@@ -26,8 +26,7 @@
             <br />
             Based on thoroughly equipped front and back-end programming skills,
             <br />
-            ambitious with personal/team growth and success through higher education, <br /> research, and internship
-            opportunities.
+            ambitious with team/personal growth and success.
           </p>
           <AboutMePopUp />
         </v-col>
@@ -49,7 +48,7 @@
                 <div class="child bgColor2">
                   <v-icon color="" x-large class="ml-3" dark>mdi-security</v-icon>
                   <h3 class="white--text ml-3 mt-4">Cybersecurity</h3>
-                  <p class="grey--text ml-3 mt-6">
+                  <p class="white--text ml-3 mt-6">
                     Check My Research Paper!
                   </p>
                   <v-btn color="" dark text
@@ -163,12 +162,12 @@
             <div class="secondchild1" id="Contact">
               <v-row>
                 <v-col cols="12">
-                  <h2 class="white--text">
+                  <h2 class="white--text final-text">
                     Contact me if you have any questions!
                   </h2>
                 </v-col>
                 <v-col cols="12">
-                  <v-btn tile color="#958b00" dark class="mt-16" href="mailto: minkimdom1103@gmail.com">
+                  <v-btn tile color="#958b00" dark class="mt-16 final" href="mailto: minkimdom1103@gmail.com">
                     Contact
                   </v-btn>
                 </v-col>
@@ -260,17 +259,25 @@ export default {
   height: 400px;
   background: #181818;
   text-align: center;
-  padding: 2rem 2rem;
+  padding-top: 2rem;
 }
 
 .secondchild1 {
   display: inline-block;
   width: 650px;
   background-color: #1e1e1e;
-  padding: 2rem 1rem;
   vertical-align: middle;
-  text-align: left;
+  text-align: center;
   margin-top: 250px;
+}
+
+.final {
+  margin-bottom: 25px;
+}
+
+.final-text {
+  margin-top: 25px;
+  margin-bottom: -50px;
 }
 
 .child {

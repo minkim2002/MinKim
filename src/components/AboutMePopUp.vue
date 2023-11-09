@@ -20,7 +20,7 @@
                     </div>
                 </v-timeline-item>
 
-                <v-timeline-item dot-color="pink" size="small">
+                <v-timeline-item dot-color="white" size="small">
                     <div class="d-flex">
                         <strong class="me-4 text-center">Web App Developer @ W&M</strong>
                     </div>
@@ -46,6 +46,10 @@ export default {
 </script>
 <style>
 .about_me {
-    background-color: #f0efc2;
+    background-color: #958b00;
+}
+
+.text-center {
+    color: #ededed;
 }
 </style>
